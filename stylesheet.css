@@ -1,0 +1,98 @@
+* {
+    max-width: 850px;
+    margin: auto;
+}
+
+
+/*body {
+      min-width: 500px;
+  }*/
+
+#header {
+    height: 50px;
+    width: 100%;
+    background-color: #f3988e;
+    position: fixed;
+}
+
+div {
+    border-radius: 5px;
+     :hover {
+        background-color: #f1f376;
+    }
+}
+
+#title {
+    margin-left: 3%;
+}
+
+#footer {
+    height: 50px;
+    width: 100%;
+    background-color: #556f9c;
+    clear: both;
+    position: inherit;
+}
+
+.right {
+    height: 1750px;
+    width: 45px;
+    background-color: #c399d4;
+    float: right;
+    position: inherit;
+}
+
+.left {
+    height: 1750px;
+    width: 45px;
+    background-color: #82E0AA;
+    float: left;
+    position: inherit;
+}
+
+.stuff {
+    display: inline-block;
+    margin-top: 6px;
+    margin-left: 55px;
+    width: 75%;
+    height: 5px;
+}
+
+p,
+li {
+    font-family: 'Cormorant Garamond';
+    font-size: large;
+}
+
+.head {
+    font-size: 20px;
+}
+
+#name {
+    font-family: Sacramento;
+    float: right;
+    margin-top: 10px;
+    margin-right: 4%;
+}
+
+a {
+    color: Black;
+    text-decoration: none;
+     :hover {
+        background-color: #aa0961;
+        color: white;
+        font-size: large;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+    .left,
+    .right {
+        display: none;
+    }
+    .stuff {
+        width: 100%;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
